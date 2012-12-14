@@ -36,8 +36,6 @@ end
 
 
 
-puts n_C_r(5,5)
-
 count = 0
 
 for n in 1..100
