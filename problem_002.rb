@@ -14,8 +14,7 @@ new_term = 0
 
 while new_term <= 4_000_000
 		new_term = first + second   #produces the new term of the sequence, from the 3rd term onwards
-		first = second
-		second = new_term
+		first, second = second, new_term
 		sum += new_term if (new_term % 2 == 0)
 end 
 
